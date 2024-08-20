@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid & AI Cars</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Bot Section -->
+    <div class="bot" onclick="toggleBot()">
+        <img src="logo.png" alt="Bot">
+    </div>
+
+    <div class="chatbot" id="chatbot">
+        <div class="chat-header">
+            <h3>AI Bot</h3>
+            <span onclick="toggleBot()">X</span>
+        </div>
+        <div class="chat-body">
+            <p>Hello! How can I help you today?</p>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="botInput" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <!-- Sliding Pictures -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="carpic.png" style="width:50%">
+        </div>
+        <div class="mySlides fade">
+            <img src="veloc.jpg" style="width:50%">
+        </div>
+        <div class="mySlides fade">
+            <img src="chasi.jpg" style="width:50%">
+        </div>
+    </div>
+
+    <!-- Features of Hybrid Cars -->
+    <section id="features">
+        <h2>TEAM VELOCIRACERS</h2>
+        <p>Hybrid cars utilize advanced technology to enhance safety, efficiency, and performance.</p>
+        <p>Hybrid cars combine a gasoline engine with an electric motor to increase fuel efficiency and reduce emissions.</p>
+    </section>
+
+    <!-- Responsive Grid/Flex Layout for Cars -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="veloci car.png" alt="Engine">
+                <p></p>
+            </div>
+            <div class="grid-item">
+                <img src="champ.png" alt="Battery">
+                <p>Champions</p>
+            </div>
+            <div class="grid-item">
+                <img src="veloc.jpg" alt="Sensor">
+                <p>Model</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Powerful Thought -->
+    <section id="thought">
+        <h2>Powerful Thought</h2>
+        <p>"In the fusion of cutting-edge hybrid technology and collaborative teamwork, we drive towards a future where innovation knows no bounds and sustainable solutions lead the way."</p>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        <p>Follow us: <a href="https://youtu.be/CZJuUy8OKi0?si=njH-7FYpPHdy55eF">YouTube</a> | <a href="https://www.instagram.com/team_velociracers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></p>
+        <p>Location: COEP TECH UNIVERSITY,MFS DEP</p>
+    </section>
+
+    <!-- Google Chatbot Script -->
+    <script src="script.js"></script>
+</body>
+</html>
+

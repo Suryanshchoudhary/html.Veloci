@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #ffa500, #000000);
+    color: #fff;
+}
+
+/* Navbar */
+nav {
+    background-color: #111;
+    color: #fff;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+/* Bot Section */
+.bot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.bot img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.chatbot {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 110px;
+    width: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.chat-header {
+    background-color: #444;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-body {
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    color: white;
+}
+
+.chat-footer {
+    display: flex;
+    padding: 10px;
+    background-color: #444;
+}
+
+.chat-footer input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.chat-footer button {
+    width: 20%;
+    background-color: #666;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Slideshow */
+.slideshow-container {
+    max-width: 50%;
+    position: relative;
+    margin: auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.mySlides {
+    display: none;
+    text-align: center;
+}
+
+/* Grid/Flexbox for Gallery */
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.grid-item {
+    background-color: #111;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Features Section */
+#features {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: white;
+}
+
+/* Thought Section */
+#thought {
+    padding: 20px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+}
+
+/* Contact Form */
+#contact {
+    padding: 20px;
+    text-align: center;
+}
+
+#contact form {
+    display: inline-block;
+    text-align: left;
+}
+
+#contact label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#contact input[type="submit"] {
+    background-color: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+/* Footer Social Links */
+#contact p a {
+    color: #fff;
+    text-decoration: none;
+}
